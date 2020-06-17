@@ -15,7 +15,6 @@
         e.preventDefault();
 
         var filter = $(this).attr('data-filter');
-
         $('ul.filters > li').removeClass('active');
         $(this).addClass('active');
 
